@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+
+
+ ~/bin/bcftools-1.2/vcfutils.pl splitchr -l 10000000 Mus_musculus.GRCm38.dna.primary_assembly.fa.fai  > splitchr.list
+
+
+cat splitchr.list | awk '{print "samtools  mpileup -r "$1"  -uf
+Mus_musculus.GRCm38.dna.primary_assembly.fa TH2GMP_Bcat_MLL-ENL_1.merged.bam
+TH2GMP_Bcat_MLL-ENL_2.merged.bam TH2GMP_Bcat_MLL-ENL_3.merged.bam
+TH2GMP_Bcat_MLL-ENL_4.merged.bam TH2GMP_Bcat_MLL-ENL_5.merged.bam
+TH2GMP_Bcat_MLL-ENL_6.merged.bam TH2GMP_WT_MLL-ENL_1.merged.bam
+TH2GMP_WT_MLL-ENL_2.merged.bam TH2GMP_WT_MLL-ENL_3.merged.bam
+TH2GMP_WT_MLL-ENL_4.merged.bam TH2GMP_WT_MLL-ENL_5.merged.bam
+TH2GMP_WT_normal_1.merged.bam TH2GMP_WT_normal_2.merged.bam
+TH2LSK_Bcat_MLL-ENL_1.merged.bam TH2LSK_Bcat_MLL-ENL_2.merged.bam
+TH2LSK_WT_MLL-ENL_1.merged.bam TH2LSK_WT_MLL-ENL_2.merged.bam
+TH2LSK_WT_normal_1.merged.bam TH2LSK_WT_normal_2.merged.bam | bcftools call -m
+--
+--
+mv 10:40000001-50000000.vcf.gz.q30.DP5.vcf.gz 10:40000001-50000000.vcf.gz.q30.DP5
+bcftools view -Oz -o 10:30000001-40000000.vcf.gz.q30.DP5.vcf.gz 10:30000001-40000000.vcf.gz.q30.DP5
+bcftools view -Oz -o GL456233.1:1-336933.vcf.gz.q30.DP5.vcf.gz GL456233.1:1-336933.vcf.gz.q30.DP5
+bcftools index -f 10:30000001-40000000.vcf.gz.q30.DP5.vcf.gz
+mv 10:30000001-40000000.vcf.gz Split_BAMs
+
+
+
+
+samtools mpileup -uf Mus_musculus.GRCm38.dna.primary_assembly.fa TH2GMP_Bcat_MLL-ENL_1.merged.bam TH2GMP_Bcat_MLL-ENL_2.merged.bam TH2GMP_Bcat_MLL-ENL_3.merged.bam TH2GMP_Bcat_MLL-ENL_4.merged.bam TH2GMP_Bcat_MLL-ENL_5.merged.bam TH2GMP_Bcat_MLL-ENL_6.merged.bam TH2GMP_WT_MLL-ENL_1.merged.bam TH2GMP_WT_MLL-ENL_2.merged.bam TH2GMP_WT_MLL-ENL_3.merged.bam TH2GMP_WT_MLL-ENL_4.merged.bam TH2GMP_WT_MLL-ENL_5.merged.bam TH2GMP_WT_normal_1.merged.bam TH2GMP_WT_normal_2.merged.bam TH2LSK_Bcat_MLL-ENL_1.merged.bam TH2LSK_Bcat_MLL-ENL_2.merged.bam TH2LSK_WT_MLL-ENL_1.merged.bam TH2LSK_WT_MLL-ENL_2.merged.bam TH2LSK_WT_normal_1.merged.bam TH2LSK_WT_normal_2.merged.bam | bcftools call -m -Oz -o all5.vcf.gz
+
+
+
+
