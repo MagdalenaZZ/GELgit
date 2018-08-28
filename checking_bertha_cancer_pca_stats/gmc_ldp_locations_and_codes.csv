@@ -1,0 +1,93 @@
+ODS Code,Site,GMC,GMC_code
+RJ7,"St George's University Hospitals NHS FT, UK",South London,RJ1
+RJZ,"King's College Hospital NHS FT, UK",South London,RJ1
+RJ1,"Guy's and St Thomas' Hospital NHS FT, UK",South London,RJ1
+RD8,"Milton Keynes Hospital NHS FT, UK",Oxford,RTH
+RDU,"Frimley Park Hospital NHS FT, UK",Oxford,RTH
+RN3,"Great Western Hospital NHS FT, UK",Oxford,RTH
+RXQ,"Buckinghamshire Healthcare NHS Trust, UK",Oxford,RTH
+RTH,"Oxford University Hospitals NHS Trust, UK",Oxford,RTH
+R1K,"London North West Healthcare NHS Trust, UK",North Thames,RP4
+RAN,"Royal National Orthopaedic Hospital, UK",North Thames,RP4
+RAL,"The Royal Free London NHS FT, UK",North Thames,RP4
+RRV,"University College London NHS FT, UK",North Thames,RP4
+R1H,"Barts Health NHS Trust, UK",North Thames,RP4
+RP4,"Great Ormond Hospital for Children NHS FT, UK",North Thames,RP4
+RLU,"Birmingham Women's NHS FT, UK",West Midlands,RRK
+RQ3,"Birmingham Children's Hospital NHS FT, UK",West Midlands,RRK
+RR1,"Heart of England NHS FT, UK",West Midlands,RRK
+RXK,"Sandwell and West Birmingham Hospital NHS Trust, UK",West Midlands,RRK
+RBK,"University Hospital Coventry and Warwickshire NHS Trust, UK",West Midlands,RRK
+RL4,"The Royal Wolverhampton NHS Trust, UK",West Midlands,RRK
+RJE,"University Hospital of North Midlands NHS Trust, UK",West Midlands,RRK
+RRJ,"The Royal Orthopaedic Hospital NHS Trust, UK",West Midlands,RRK
+RL1,"The Robert Jones and Agnes Hunt Orthopaedic Hospital NHS FT, UK",West Midlands,RRK
+RXW,"The Shresbury and Telford Hospital NHS Trust, UK",West Midlands,RRK
+RLQ,"WYE Valley NHS Trust, UK",West Midlands,RRK
+RJC,"South Warwickshire NHS FT, UK",West Midlands,RRK
+RLT,"George Elliot Hospital NHS Trust, UK",West Midlands,RRK
+RJF,"Burton Hospital NHS FT, UK",West Midlands,RRK
+RWP,"Worcestershire Acute Hospitals NHS Trust, UK",West Midlands,RRK
+RNA,"The Dudley Group NHS FT, UK",West Midlands,RRK
+RBL,"Walsall Healthcare NHS Trust, UK",West Midlands,RRK
+RRK,"University Hospitals Birmingham NHS FT, UK",West Midlands,RRK
+RQM,"Chelsea and Westminster Hospital NHS FT, UK",West London,RYJ
+RPY,"The Royal Marsden NHS FT, UK",West London,RYJ
+RT3,"Royal Brompton and Harefield NHS FT, UK",West London,RYJ
+RYJ,"Imperial College Healthcare NHS FT, UK",West London,RYJ
+RBV,"Christie NHS FT, UK",Greater Manchester,RW3
+RM3,"The Salford FT, UK",Greater Manchester,RW3
+RM2,"University Hospital of South Manchester NHS FT, UK",Greater Manchester,RW3
+RW3,"Central Manchester Uni Hospital NHS FT, UK",Greater Manchester,RW3
+RQ6,"Royal Liverpool and Broadgreen University Hospitals NHS Trust, UK",North West Coast,REP
+REM,"Aintree University Hospitals NHS FT, UK",North West Coast,REP
+RBQ,"Liverpool Heart and Chest Hospital NHS FT, UK",North West Coast,REP
+RJR,"Countess of Chester NHS FT, UK",North West Coast,REP
+REP,"Liverpool Women's NHS FT, UK",North West Coast,REP
+RX1,"Nottingham University Hospital NHS Trust, UK",East of England,RGT
+RWE,"University Hospitals Leicester NHS Trust, UK",East of England,RGT
+RM1,"Norfolk and Norwich University Hospital NHS FT, UK",East of England,RGT
+RGT,"Cambridge University Hospital NHS FT, UK",East of England,RGT
+RNZ,"Salisbury NHS FT, UK",Wessex,RHM
+RD3,"Pool Hospitals NHS FT, UK",Wessex,RHM
+RN5,"Hampshire Hospitals NHS FT, UK",Wessex,RHM
+R1C,"Solent NHS Trust, UK",Wessex,RHM
+RDZ,"The Royal Bournemouth and Christchurch Hospitals NHS FT, UK",Wessex,RHM
+RHU,"Portsmouth Hospitals NHS Trust, UK",Wessex,RHM
+RHM,"University Hospital Southampton NHS FT, UK",Wessex,RHM
+RBA,"Taunton and Somerset NHS FT, UK",South West Peninsula,RH8
+RA4,"Yeovil District Hospital NHS FT, UK",South West Peninsula,RH8
+RK9,"Plymouth Hospital NHS Trust, UK",South West Peninsula,RH8
+RBZ,"Northern Devon Healthcare NHS Trust, UK",South West Peninsula,RH8
+RA9,"South Devon Healthcare NHS FT, UK",South West Peninsula,RH8
+REF,"Royal Cornwall Hospitals NHS Trust, UK",South West Peninsula,RH8
+RH8,"Royal Devon and Exeter NHS FT, UK",South West Peninsula,RH8
+RTR,"South Tees Hospital NHS FT, UK",North East and Cumbria,RTD
+RXP,"County Durham and Darlington NHS FT, UK",North East and Cumbria,RTD
+RTF,"Northumbria Healthcare NHS FT, UK",North East and Cumbria,RTD
+RLN,"City Hospitals Sunderland NHS FT, UK",North East and Cumbria,RTD
+RR7,"Gateshead Health NHS FT, UK",North East and Cumbria,RTD
+RVW,"North Tees and Hartlepool Hospitals NHS FT, UK",North East and Cumbria,RTD
+RE9,"South Tyneside NHS FT, UK",North East and Cumbria,RTD
+RNL,"North Cumbria University Hospital NHS Trust, UK",North East and Cumbria,RTD
+RTD,"The Newcastle upon Tyne Hospitals NHS FT, UK",North East and Cumbria,RTD
+RD1,"Royal United Hospitals Bath, UK",West of England,RA7
+RVJ,"North Bristol NHS Trust, UK",West of England,RA7
+RTE,"Gloucestershire Hospitals NHS FT, UK",West of England,RA7
+RA3,"Weston Area NHS Hospitals Trust, UK",West of England,RA7
+RA7,"University Hospitals Bristol NHS Trust, UK",West of England,RA7
+RR8,"Leeds Teaching Hospital NHS Trust, UK",Yorkshire and Humber,RHQ
+RCU,"Sheffield Children's Hospital NHS FT, UK",Yorkshire and Humber,RHQ
+RP5,"Doncaster and Bassetlaw NHS FT, UK",Yorkshire and Humber,RHQ
+RFR,"The Rotherham NHS FT, UK",Yorkshire and Humber,RHQ
+RFF,"Barnsley Hospitals NHS FT, UK",Yorkshire and Humber,RHQ
+RJL,"North Lincs and Goole NHS FT, UK",Yorkshire and Humber,RHQ
+RWA,"Hull and East Yorkshire NHS Trust, UK",Yorkshire and Humber,RHQ
+RXF,"The Mid Yorks Hospital NHS Trust, UK",Yorkshire and Humber,RHQ
+RAE,"Bradford Teaching Hospitals NHS FT, UK",Yorkshire and Humber,RHQ
+RCB,"York Teaching Hospitals NHS FT, UK",Yorkshire and Humber,RHQ
+RCF,"Airedale NHS FT, UK",Yorkshire and Humber,RHQ
+RWY,"Calderdale and Huddersfield NHS FT, UK",Yorkshire and Humber,RHQ
+RCD,"Harrogate and District NHS FT, UK",Yorkshire and Humber,RHQ
+RHQ,"Sheffield Teaching Hospitals NHS FT, UK",Yorkshire and Humber,RHQ
+NI1,"Northern Ireland, UK",Northern Ireland,NI1
